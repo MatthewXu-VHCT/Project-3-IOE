@@ -28,7 +28,7 @@ Servo servo1;
 // Thinger.io connection parameters
 #define user "xumengh"
 #define device_Id "esp8266"
-#define device_credentials "_wABmUBI012_&++E"
+#define device_credentials "###########"
 ThingerESP8266 thing(user, device_Id, device_credentials);
 
 
@@ -49,7 +49,7 @@ void setup() {
   servo1.write(90);
   
   // Setup WiFi
-  thing.add_wifi("freeman", "cogeco388");
+  thing.add_wifi("##########", "####");
   // Define the 'thing' with a name and data direction
 
   thing["LED1"]<< digitalPin(LED1);
